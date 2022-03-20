@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/*Pagina Principal index.html*/
+
+.fondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./imagen/alien-7015541_1920.jpg);
+}
+.titulo{
+    color: white;
+    padding: 10rem 10rem 10rem 9rem;
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nombre{
+    color: rgb(0, 255, 0);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: rgb(0,255,0);
+    border-color: rgb(0,255,0)
+}
+.bg-color {
+    background-color: black!important;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: black;
+    
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: white;
+}
+
+ /*PAGINA PRINCIPAL BITCOIN.HTML*/
+.fondo2{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./imagen/pexels-karolina-grabowska-5980865.jpg);
+}
+.titulo2{
+    color: rgb(0, 255, 0);
+    text-align: center;
+    
+}
+.imagenes{
+    display: flex;
+}
+.btc{
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 100px;
+}
+.subtitulo{
+    color: rgb(238, 255, 0);
+    
+    text-align: center;
+    padding-bottom: 10px;
+}
+.historia{
+    color: rgb(0, 255, 0);
+    text-align: left;
+    padding: 10px;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+/*Pagina Principal Contacto.html*/
+.fondo4{
+    color: white;
+    background-repeat: no-repeat;
+    background-image: url(./imagen/fantasy-4523944_1920.jpg);
+}
+.btn-green {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: #000000;
+    
+}
+.btn-green:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,255,0);
+    border-color: rgb(0,255,0);
+
+}
+.btn-primary{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    border-radius: 30px;
+   
+}
+.btn-primary:hover {
+    transform: translate(5px, 9px);
+    transition: all 0.8s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 255, 0);
+    border-color: rgb(0, 255, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Diseño del footer*/
+footer{
+    max-width: 100%;
+    background-color: #000000;
+    margin: 10px 0 0px 0px;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif
+   
+}
+
+.redes ul li{
+    display: inline;
+    font-size: 2rem;
+    list-style: none;
+    color: white;
+}
+.redes ul li a{
+    color: white;
+}
+.redes ul li a:hover{
+    color: rgb(0, 255, 0);
+}
+
+
+ /*PAGINA PRINCIPAL Ethereum.HTML*/
+ .fondo3{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./imagen/eth\ \(4\).jpg);
+}
+.titulo3{
+    color: rgb(0, 255, 0);
+    text-align: center;
+    
+}
+.imagenes1{
+    display: flex;
+}
+.eth{
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 100px;
+}
+.subtitulo1{
+    color: rgb(238, 255, 0);
+    
+    text-align: center;
+    padding-bottom: 10px;
+}
+.historia2{
+    color: rgb(0, 255, 0);
+    text-align: left;
+    padding: 10px;
+}
+p{
+    color: white;
+    text-align: justify;
+}
